@@ -1,0 +1,33 @@
+#用于配置端口  ，且配置文件名是固定的
+server :
+    port : 8081
+spring:
+  profiles:
+    active: prod
+
+#person :
+#    userName : 阿闲
+#    age : 15
+#    boss : true
+#    birthday : 2018/9/8
+#    address :  {add1: 学校 , add2 : 故居 }
+#    likeList : [吃 , 喝 , code]
+#    dog :
+#        name : dog
+#        age : 2
+#
+#
+##    email : 455916695@qq.com
+#usernames  : zhangsan
+
+---
+  # application.yaml   可以以   ---   分隔文档块
+server:
+  port: 8082
+spring:
+  profiles: dev
+---
+server:
+  port: 8083
+spring:
+  profiles: prod
