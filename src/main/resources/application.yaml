@@ -1,9 +1,12 @@
+
+
 #用于配置端口  ，且配置文件名是固定的
 server :
     port : 8081
 spring:
   profiles:
     active: prod
+
 
 #person :
 #    userName : 阿闲
